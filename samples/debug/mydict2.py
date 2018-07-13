@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+#可以把这些示例代码在Python的交互式环境下输入并执行，结果与文档中的示例代码显示的一致。
 class Dict(dict):
     '''
     Simple dict but also support access as x.y style.

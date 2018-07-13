@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+#像list那样按照下标取出元素，需要实现__getitem__()
+##他这个例子很特殊的，就是为了斐波那契数组的
 class Fib(object):
 
     def __getitem__(self, n):

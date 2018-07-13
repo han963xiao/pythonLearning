@@ -13,7 +13,7 @@ class Husky(Dog):
 a = Animal()
 d = Dog()
 h = Husky()
-
+#总是优先使用isinstance()判断类型，可以将指定类型及其子类“一网打尽”因为最好用！
 print('check a = Animal()...')
 print('isinstance(a, Animal) =', isinstance(a, Animal))
 print('isinstance(a, Dog) =', isinstance(a, Dog))

@@ -4,6 +4,8 @@
 from multiprocessing import Process, Queue
 import os, time, random
 
+#Process之间肯定是需要通信的，操作系统提供了很多机制来实现进程间的通信。
+# Python的multiprocessing模块包装了底层的机制，提供了Queue、Pipes等多种方式来交换数据
 # 写数据进程执行的代码:
 def write(q):
     print('Process to write: %s' % os.getpid())
